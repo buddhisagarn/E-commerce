@@ -1,0 +1,55 @@
+.section-first {
+    height: 100%;
+    width: 100%;
+}
+
+.section-first-image {
+    width: 97%;
+    margin: 20px;
+}
+
+.section-first-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.first-sec-paragraph-1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600px;
+}
+
+.grid-itemss {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+}
+
+.grid-child {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.child1 {
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.child1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.child2 {
+    font-size: 20px;
+}
